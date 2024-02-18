@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import styles from "./CarouselItem.module.css";
 import Image from "next/image";
 
@@ -6,6 +5,7 @@ interface Props {
   width: number;
   height: number;
   src: string;
+  isSelected?: boolean;
 }
 
 export type CarouselItemProps = Props;
