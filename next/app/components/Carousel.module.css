@@ -2,3 +2,7 @@
   width: 648px;
   margin: auto;
 }
+
+.slider {
+  display: flex;
+}

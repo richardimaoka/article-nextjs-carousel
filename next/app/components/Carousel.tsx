@@ -8,7 +8,7 @@ interface Props {
 export function Carousel(props: Props) {
   return (
     <div className={styles.component}>
-      <div>
+      <div className={styles.slider}>
         {props.items.map((x) => (
           <CarouselItem
             key={x.src}
