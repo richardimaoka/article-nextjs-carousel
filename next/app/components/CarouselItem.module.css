@@ -1,3 +1,4 @@
 .component {
   padding: 4px;
+  scroll-snap-align: start;
 }
